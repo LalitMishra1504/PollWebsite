@@ -1,0 +1,148 @@
+/* HomeStyling */
+.uppercontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+  font-family: "Inter",sans-serif!important
+}
+h3
+{
+  margin-left: 1%;
+  font-weight: bold;
+}
+h4{
+  margin-left: 40%;
+  font-size: larger;
+}
+h5{
+  font-size: medium;
+  margin-left: 12px;
+  font-weight: 600;
+  margin-top: 25px;
+  color:#a0aec0;
+  font-weight: bold;
+}
+.questionbox{
+  height: 80px;
+  margin-top: 25px;
+}
+.option{
+  margin-top: 20px;
+  margin-left: 10px;
+  font-weight: 600;
+  color: #a0aec0;
+}
+.optionbox{
+  height: 60px;
+  margin-right: 12px;
+}
+.Addbutton{
+  margin-top: 18px;
+  height: 50px;
+}
+.createbtn{
+  padding: 2px 5px;
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+.optionstyle{
+  display: flex;
+}
+.del{
+  margin-left: 10px;
+  margin-top: 17px;
+  color: red;
+  height: 1px;
+}
+.deleteicon{
+  border: none;
+  margin-bottom: 12px;
+}
+.box{
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px; /* this is half the height of your div*/  
+  margin-left:-100px;
+  height:500px;
+  width:600px;
+}
+/* Poll link page css */
+.mainDiv
+{
+    border:  2px solid #DFEBFF;
+    background-color: #DFEBFF;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* height: 100px; */
+}
+
+.childdiv
+{
+    border: 2px solid #F3F8FF;
+    margin-top:10%;
+    margin-bottom: 5%;
+    background-color: #F3F8FF;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    padding-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.LinkUser
+{
+    /* border: 2px solid green; */
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.textareaLink
+{
+    width: 70%;
+    height: 50px;
+    position: relative;
+    top: -7px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #C7CFD9;
+    padding-left: 2%;
+    position: relative;
+    padding-top: 2%;
+    font-size: 1.2rem;
+}
+
+.copybutton{
+    font-size: 40px;
+    position: relative;
+    top: -15px;
+    margin-left: 1.5%;
+    color: #3A608F;
+    margin-top: 1.7%;
+}
+.copybutton:hover{
+    cursor: pointer;
+}
+.h3userLink{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.LinkadminUser
+{
+    /* border: 2px solid red; */
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.h3adminLink
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.setter{
+  display: flex;
+}
