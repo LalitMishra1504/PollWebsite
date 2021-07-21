@@ -146,3 +146,26 @@ h5{
 .setter{
   display: flex;
 }
+/* poll Generator css on SinglePole Page */
+.polldata
+{   
+     background-color: #DFEBFF;
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* padding-left: 10%; */
+}
+.card{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 2%;
+  width: 50%;
+  height: 50px;
+  margin-left: 2px;
+}
+.quesstyle
+{
+  align-items: center;
+  font-family:cursive;
+  font-size: 40px;
+  font-weight: bolder;
+}

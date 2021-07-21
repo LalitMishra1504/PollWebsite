@@ -3,6 +3,7 @@ import Home from './Components/Home';
 import UserData from './Components/UserData';
 import {Route} from 'react-router-dom';
 import Navbar from './Components/Navbar';
+import SinglePoll from './Components/SinglePoll';
 function App() {
   return (
     <>
@@ -12,6 +13,9 @@ function App() {
      </Route>
      <Route path="/userdata">
       <UserData/>
+     </Route>
+     <Route exact path="/singlepoll/:_id">
+     <SinglePoll/>
      </Route>
     </>
   );

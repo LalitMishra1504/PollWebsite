@@ -20,8 +20,9 @@ const CreatePoll = (props) => {
             window.alert("Error");
         }
         else{
-            console.log(data);
-            history.push('/UserData');
+            history.push({
+                pathname:'/UserData',
+            state:{id:data._id}});
         }
     }
     return (

@@ -7,9 +7,19 @@ router.post('/createpoll',async (req,res)=>{
     {
        const userdata=new Data(req.body);
        const savedata=await userdata.save();
-       res.status(200).json({message:"Saved Succesfull"});
+       res.status(200).json(savedata);
     }catch(err){
-       res.json(400).json({message:"Error Occured"});
+       res.json(400).send(savedata);
     }
+})
+router.get('/poll/:id',async(req,res)=>{
+   try
+   {
+     const user=await Data.findById(req.params.id);
+     res.status(200).send(user);
+   }
+   catch(e){
+      console.log(e);
+   }
 })
 module.exports=router;
