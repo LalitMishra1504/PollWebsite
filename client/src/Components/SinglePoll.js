@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams, useHistory } from 'react-router-dom'
-
+import { ToastContainer, toast } from 'react-toastify';
 const SinglePoll = () => {
     const history = useHistory();
     const [flag, setflag] = useState("")
@@ -31,7 +31,8 @@ const SinglePoll = () => {
         });
         console.log("yes");
         const data = await res.json();
-        window.alert("Vote Added");
+        toast.success("Vote Added",{
+        });
         localStorage.setItem(params._id,flag);
         history.push(`/poll/result/${params._id}`);
     }

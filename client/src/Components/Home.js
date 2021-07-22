@@ -6,7 +6,6 @@ import LowerDiv from './LowerDiv';
 const Home = () => {
   return (
     <>
-      <Navbar />
       <LowerDiv />
     </>
   )

@@ -43,6 +43,8 @@ const Result = () => {
     console.log("hi");
     useEffect(() => {
         callpollfun();
+        toast.success("Thanks For Your Vote", {
+        });
     }, [])
     return (
             <div className="databox">
